@@ -2,6 +2,7 @@ Version Node 18.10.0 minimum nécessaire
 
 Installation de l'app :
 Dans le terminal, dans le dossier racine du projet, lancer la commande : npm install
+npm i nodemon -g
 
 Lancer l'app en local :
 Dans le terminal, dans le dossier vintool/, lancer la commande n: npm run start
