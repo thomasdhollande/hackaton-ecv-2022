@@ -5,7 +5,7 @@ Dans le terminal, dans le dossier racine du projet, lancer la commande : npm ins
 npm i nodemon -g
 
 Lancer l'app en local :
-Dans le terminal, dans le dossier vintool/, lancer la commande n: npm run start
+Dans le terminal, dans le dossier racine du projet, lancer la commande : npm run start
 
 
 Pour créer une page :
