@@ -2,38 +2,17 @@ Version Node 18.10.0 minimum nécessaire
 
 Installation de l'app :
 Dans le terminal, dans le dossier racine du projet, lancer la commande : npm install
+
+Installer nodemon :
 npm i nodemon -g
 
 Lancer l'app en local :
 Dans le terminal, dans le dossier racine du projet, lancer la commande : npm run start
 
 
-Pour créer une page :
+Allez dans components/{le component qui vous intéresse} et mettez l'HTML
+Tout le CSS de la page Home dans public/css/home/style.css
+Tout le JS de la page Home dans public/js/home/script.js
 
-- Dans le dossier views, créer un fichier nomDeLaPAge.ejs (On mettra le HTML dedans)
-
-- Au début de chaque fichier nomDeLaPAge.ejs, mettre en première ligne <%- include('template/header') %>
-  et <%- include('template/footer') %> en dernière ligne
-  Cela importera automatiquement le header et le footer avec les feuilles de style et les scripts liés à chaque page
-
-  On met le HTML entre les deux includes
-
-- Dans public/css, créer un dossier qui porte le nom de la page et dans celui-ci créer un fichier style.css
-
-- Dans public/js, créer un dossier qui porte le nom de la page et dans celui-ci créer un fichier script.js
-
-
-Pour créer une route :
-
-Dans app.js on ajoute la ligne
-
-app.get('/route', function (req, res) {
-    res.render('nomDeLaPage***', {
-        title: 'titreDeLaPage',
-        pageName: "nomDeLaPage",
-    })
-})
-
-*** Le nom doit correspondre au nom des dossiers créés dans public/css et public/js
-
+TRAVAILLEZ BIEN SUR VOTRE BRANCHE SVP !
 
