@@ -1,0 +1,36 @@
+/* LANDING */
+
+/* END LANDING */
+
+
+
+/* PARTNERS */
+.mainTitle {
+   text-align: center;
+   font-size: 36px;
+}
+
+.partners {
+    width: 90%;
+    margin : auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.partners img {
+    max-width: 250px;
+}
+/* END PARTNERS */
+
+
+
+/* SERVICES */
+
+/* END SERVICES */
+
+
+
+/* FAQ */
+
+/* END FAQ */

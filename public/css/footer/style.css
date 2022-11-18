@@ -1,0 +1,46 @@
+
+/* FOOTER */
+footer {
+    padding: 2rem;
+}
+
+.about h3,
+.legal h3,
+.socialMedia h3 {
+  margin-bottom: 1rem;
+}
+
+.footerContent {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--clr-white);
+}
+
+.footerContent p  {
+    margin-bottom: 0.89rem;
+}
+
+.logo {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.about,
+.legal,
+.socialMedia{
+    padding: 1rem;
+}
+
+.socialMediaIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+}
+  
+/* END FOOTER */
