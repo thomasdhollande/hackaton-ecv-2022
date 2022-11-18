@@ -1,43 +1,44 @@
-.articles {
-    width: 80%;
-    margin: auto;
-    padding-top: 4rem;
+#blog {
+  margin-top: 8rem;
 }
-  
-  .gridBlog {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 30px;
-  }
-  
-  .articleCard {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border-radius: 9px;
-    /* Align bottoms in the bottom of the page */
-    align-items: flex-start;
-    box-shadow: 5px 3px 3px var(--clr-orange);
-  }
-  
-  .articleCard img {
-    width: 100%;
-    border-radius: 10px;
-    margin: auto;
-  }
-  
-  .articleCard h3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
 
-  
-  .articleCard .btn {
-    background-color: var(--clr-orange);
-    border-radius: 3px;
-    padding: 0.6rem 1.5rem;
-    /* Align bottoms in the bottom of teh page */
-    margin-top: auto;
-    font-weight: bold;
-  }
+#blog .title h1 {
+  font-size: 3rem;
+}
+
+.gridBlog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.articleCard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 9px;
+  /* Align bottoms in the bottom of the page */
+  align-items: flex-start;
+  box-shadow: 5px 3px 3px var(--primary_orange);
+}
+
+.articleCard img {
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.articleCard h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.articleCard .btn {
+  background-color: var(--primary_orange);
+  border-radius: 3px;
+  padding: 0.6rem 1.5rem;
+  /* Align bottoms in the bottom of teh page */
+  margin-top: auto;
+  font-weight: bold;
+}

@@ -2,45 +2,60 @@
 /* FOOTER */
 footer {
     padding: 2rem;
+    background-color: var(--secondary_blue);
 }
 
 .about h3,
 .legal h3,
 .socialMedia h3 {
   margin-bottom: 1rem;
+  color: var(--white);
 }
 
 .footerContent {
     padding: 2rem;
     display: flex;
     justify-content: space-evenly;
-    color: var(--clr-white);
+    color: var(--white);
 }
 
 .footerContent p  {
     margin-bottom: 0.89rem;
+    color: var(--white);
 }
 
 .logo {
     font-size: 70px;
     font-weight: bold;
+    color: var(--white);
 }
 
 .about,
 .legal,
 .socialMedia{
     padding: 1rem;
+    color: var(--white);
 }
 
 .socialMediaIcon{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: var(--white);
+}
+
+.socialMediaIcon i {
+    color: var(--white);
 }
 
 .copyright {
     text-align: center;
     font-weight: bold;
+    color: var(--white);
+}
+
+.copyright small {
+    color: var(--white);
 }
   
 /* END FOOTER */

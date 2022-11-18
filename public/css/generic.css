@@ -12,10 +12,29 @@
     src: url('../fonts/material-icons/MaterialIconsOutlined-Regular.otf') format("opentype");
 }
 
+/* Poppins */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Regular.ttf') format("truetype");
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --primary_orange: #FF981F;
+    --secondary_orange: #FFB257;
+    --primary_blue: #191930;
+    --secondary_blue: #102348;
+    --tertiary_blue: #4C5A76;
+    --grey_blue: #8791A4;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    color: var(--black);
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -84,5 +103,26 @@ ul, li {
 }
 
 section {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1 {
+    font-size: 6rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    text-align: center;
 }

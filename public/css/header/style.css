@@ -1,47 +1,60 @@
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
-#navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding : 30px 100px 30px 100px;
     position: fixed;
-    width: 93%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 4rem ;
+    top: 0;
+    width: 100%;
+    height: 8rem;
     background-color: rgba(255, 255, 255, 0.55);
-    transition: 0.6s;
+    transition: all 0.3s ease;
+    z-index: 999;
 }
 
-#navbar.active {
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-    height: 40px;
+.navbar.active {
+    background-color: var(--white);
+    height: 5rem;
 }
-#onglets {
+
+.navbar_logo {
+    text-align: center;
+}
+
+.navbar_logo img {
+    width: 8rem;
+}
+
+.navbar_links {
+    max-width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
 
-#onglets a {
-    padding : 0 100px 0 0px;
+.navbar_links a {
     text-decoration: none;
-    color: #102348;
-    font-size: 20px;
-
+    color: var(--secondary_blue);
+    font-weight: bold;
+    font-size: 1.3rem;
 }
     
-#onglets a:after {
+.navbar_links a:after {
     content: '';
     display: block;
     margin: auto;
-    height: 1px;
+    height: 2px;
     width: 0;
     background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+    transition: all .3s ease;
 }
     
-#onglets a:hover:after {
+.navbar_links a:hover:after {
     width: 100%;
     background: #102348;
 }

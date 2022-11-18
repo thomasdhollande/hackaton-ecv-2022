@@ -13,14 +13,14 @@ app.use(express.static('public'))
 // Routes + render
 app.get('/', function (req, res) {
     res.render('home', {
-        title: 'Hackaton 2022',
+        title: 'Opiff',
         pageName: "home",
     })
 })
 
 app.get('/blog', function (req, res) {
     res.render('blog', {
-        title: 'Blog',
+        title: 'Opiff | Blog',
         pageName: "blog",
     })
 })
