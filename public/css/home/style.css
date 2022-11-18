@@ -76,6 +76,29 @@
 
 /* PARTNERS */
 
+
+/* END LANDING */
+
+
+
+/* PARTNERS */
+.mainTitle {
+    text-align: center;
+    font-size: 36px;
+}
+
+.partners {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.partners img {
+    max-width: 250px;
+}
+
 /* END PARTNERS */
 
 
@@ -87,8 +110,6 @@
 
 
 /* FAQ */
-
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 :root {
     ---Very-dark-blue: #102348;
@@ -105,7 +126,8 @@
     flex-direction: column;
     font-family: "Kumbh Sans", sans-serif;
     font-size: 0.75rem;
-    background: white;;
+    background: white;
+    ;
 }
 
 .faq_section img,
@@ -216,11 +238,7 @@
     color: rgba(255 255 255/0.5);
 }
 
-@media (max-width: 1440px) {
-
-
-
-}
+@media (max-width: 1440px) {}
 
 
 /* END FAQ */
