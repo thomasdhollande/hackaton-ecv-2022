@@ -1,4 +1,74 @@
 /* LANDING */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.landing_section {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.landing_left {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.landing_left_title {
+    width: 75%;
+    display: flex;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+}
+
+.landing_left_text {
+    width: 75%;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+}
+
+.landing_left_button {
+    width: 75%;
+    display: flex;
+}
+
+.landing_left_button_download {
+    height: 5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin: 1rem 0.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.landing_left_button_download:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.landing_right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_right_phone {
+    max-height: 90vh;
+}
 
 /* END LANDING */
 
@@ -17,5 +87,140 @@
 
 
 /* FAQ */
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+    ---Very-dark-blue: #102348;
+    --Soft-yellow: #FFB257;
+
+    --Very-dark-grayish-blue: #4C5A76;
+    --Dark-grayish-blue: #8791A4;
+
+    --Light-grayish-blue: #C3C8D1;
+}
+
+.faq_section {
+    display: flex;
+    flex-direction: column;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 0.75rem;
+    background: white;;
+}
+
+.faq_section img,
+.faq_section picture,
+.faq_section video,
+.faq_section canvas,
+.faq_section svg {
+    display: block;
+    max-width: 100%;
+}
+
+.faq_section input,
+.faq_section button,
+.faq_section textarea,
+.faq_section select {
+    font: inherit;
+}
+
+.faq_section p,
+.faq_section h1,
+.faq_section h2,
+.faq_section h3,
+.faq_section h4,
+.faq_section h5,
+.faq_section h6 {
+    overflow-wrap: break-word;
+}
+
+.faq_title {
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.faq_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.faq_content {
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.faq_item {
+    width: 100%;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid var(--Light-grayish-blue);
+}
+
+.faq_question {
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.faq_question:hover {
+    color: var(--Soft-yellow);
+}
+
+.faq_answer {
+    display: none;
+    padding-bottom: 1.5em;
+    color: var(--Dark-grayish-blue);
+    line-height: 1.5em;
+    font-size: 1rem;
+}
+
+.arrow_icon {
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    transform: rotate(0deg);
+    transition: transform 300ms ease;
+}
+
+.imgs_container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.img_faq {
+    width: 60%;
+}
+
+.attribution {
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    color: var(---Very-dark-blue);
+    opacity: 0.75;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: underline;
+}
+
+.attribution a:hover {
+    color: rgba(255 255 255/0.5);
+}
+
+@media (max-width: 1440px) {
+
+
+
+}
+
 
 /* END FAQ */
