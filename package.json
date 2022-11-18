@@ -1,7 +1,7 @@
 {
-  "name": "vintool",
+  "name": "opiff",
   "version": "1.0.0",
-  "description": "Site de présentation pour l'application - Hackaton 2022 | ECV",
+  "description": "Opiff | Fais des rencontres en voyageant à l'aveugle !",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
