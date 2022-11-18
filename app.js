@@ -26,13 +26,10 @@ app.get('/blog', function (req, res) {
 })
 
 // Error 404
-// app.use((req, res) => {
-//     res.status(404)
-//     res.render('error404', {
-//         title: 'Erreur 404 - Page non trouvée',
-//         pageName: "error404",
-//     })
-// })
+app.use((req, res) => {
+    res.status(404)
+    res.json('Error 404')
+})
 
 // Error 500
 // app.use((err, req, res, next) => {
