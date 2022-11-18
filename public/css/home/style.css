@@ -190,6 +190,40 @@
 /* END TESTIMONIALS */
 
 
+/* AVANTAGES */
+.aventageSection {
+    background-color: #FFE5C7;
+    color: var(--clr-blue);
+    text-align: center;
+    padding: 3rem;
+}
+
+.avantageIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.avantageIcon h3 {
+    margin-left: 0.78rem;
+}
+
+.avantages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* END AVANTAGES */
+
+
+
 /* FAQ */
 .faq_container {
     width: 100%;
