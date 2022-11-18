@@ -104,9 +104,68 @@
 
 
 /* SERVICES */
+#services {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    flex: 1;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    -webkit-transform: perspective(800px);
+    transform: perspective(800px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card .illustration {
+    width: 100%;
+    text-align: center;
+}
+
+.card .illustration img {
+    height: 10rem;
+}
+
+.card .title {
+    width: 100%;
+    text-align: center;
+}
+
+.card .title h3 {
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card .description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 /* END SERVICES */
-
 
 
 /* FAQ */
@@ -242,3 +301,26 @@
 
 
 /* END FAQ */
+/* END FAQ */
+
+
+/* TESTIMONIALS */
+
+.testimonials_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    flex: 1;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    -webkit-transform: perspective(800px);
+    transform: perspective(800px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* END TESTIMONIALS */
